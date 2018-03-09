@@ -1,0 +1,13 @@
+<StackLayout>
+
+      <Button (tap)="onScan()" text="SCAN PRODUCT"color="white"backgroundColor="#444"width="75%"fontSize="30"horizontalAlignment="center"></Button>
+      <!-- <BarcodeScanner
+            class="scanner-round"
+            formats="QR_CODE, EAN_13"
+            beepOnScan="true"
+            reportDuplicates="true"
+            preferFrontCamera="false">
+      </BarcodeScanner> -->
+      <Label [text]="code"color="white"fontSize="20"></Label>
+      
+</StackLayout>
