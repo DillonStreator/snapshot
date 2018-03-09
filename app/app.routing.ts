@@ -2,6 +2,8 @@ import { LoginComponent } from "./pages/login/login.component";
 import { HomeComponent } from "./pages/home/home.component";
 import { DashboardComponent } from "./pages/home/dashboard/dashboard.component";
 import { ProductDetailComponent } from "./pages/home/product-detail/product-detail.component";
+import { ScannerComponent } from "./pages/home/dashboard/scanner/scanner.component";
+
 
 export const routes = [
     { path: "", redirectTo: "/home/(homepageoutlet:dashboard)", pathMatch: "full" },
@@ -16,5 +18,6 @@ export const navigatableComponents = [
   LoginComponent,
   HomeComponent,
   DashboardComponent,
-  ProductDetailComponent
+  ProductDetailComponent,
+  ScannerComponent
 ];
